@@ -4,7 +4,7 @@ const login = async (userInfo: UserLogin) => {
   // TODO: make a POST request to the login route
   try {
     // Send a POST request to '/auth/login' with user login information in JSON format
-    const response = await fetch('/login', {
+    const response = await fetch('auth/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
